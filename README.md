@@ -1,4 +1,5 @@
 # W.I.P. -> Converting from dbus-shelly-3em-smartmeter
+#fork from https://github.com/vincegod/dbus-shelly-em-smartmeter for own setpoints
 # dbus-home-wizzard-energy-p1
 Integrate Home Wizzard Energy P1 meter into [Victron Energies Venus OS](https://github.com/victronenergy/venus)
 
@@ -56,7 +57,7 @@ After that call the install.sh script.
 
 The following script should do everything for you:
 ```
-wget https://github.com/back2basic/dbus-Home-Wizzard-Energy-P1/archive/refs/heads/main.zip
+wget https://github.com/tomashaglund1/dbus-Home-Wizzard-Energy-P1/archive/refs/heads/main.zip
 unzip main.zip "dbus-Home-Wizzard-Energy-P1-main/*" -d /data
 mv /data/dbus-Home-Wizzard-Energy-P1-main /data/dbus-Home-Wizzard-Energy-P1
 chmod a+x /data/dbus-Home-Wizzard-Energy-P1/install.sh
